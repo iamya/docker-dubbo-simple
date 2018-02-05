@@ -1,0 +1,9 @@
+/bootparent/boot-dubbo-api/target
+/bootparent/boot-dubbo-api/boot-dubbo-api.iml
+/bootparent/boot-dubbo-consumer1/boot-dubbo-consumer1.iml
+/bootparent/boot-dubbo-consumer1/target
+/bootparent/boot-dubbo-provider1/boot-dubbo-provider1.iml
+/bootparent/boot-dubbo-provider1/target
+/bootparent/boot-dubbo-provider-war/boot-dubbo-provider-war.iml
+/bootparent/boot-dubbo-provider-war/target
+/bootparent/bootparent.iml
