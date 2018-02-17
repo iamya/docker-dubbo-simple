@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>boot-dubbo-api</module>
         <module>boot-dubbo-provider1</module>
 		<module>boot-dubbo-consumer1</module>
     </modules>
