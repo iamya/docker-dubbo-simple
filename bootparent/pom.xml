@@ -11,7 +11,11 @@
 
     <modules>
         <module>boot-dubbo-provider1</module>
+		 <module>boot-dubbo-provider2</module>
 		<module>boot-dubbo-consumer1</module>
+		<module>boot-dubbo-consumer2</module>
+		<module>boot-dubbo-provider-war</module>
+		<module>boot-dubbo-provider-war2</module>
     </modules>
 
     <parent>

@@ -8,16 +8,16 @@
 
 	<name>boot-dubbo-provider1</name>
 
-		<parent>
+	<parent>
 		<groupId>my.boot.stu</groupId>
 		<artifactId>boot-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath/>
+		<relativePath />
 	</parent>
 
 	<properties>
-		<com.alibaba.dubbo.version>2.5.3</com.alibaba.dubbo.version>
-		<org.apache.zookeeper.version>3.4.6</org.apache.zookeeper.version>
+		<com.alibaba.dubbo.version>2.6.0</com.alibaba.dubbo.version>
+		<org.apache.zookeeper.version>3.4.9</org.apache.zookeeper.version>
 		<com.github.sgroschupf.zkclient.version>0.1</com.github.sgroschupf.zkclient.version>
 	</properties>
 
@@ -62,7 +62,7 @@
 			<version>${com.github.sgroschupf.zkclient.version}</version>
 		</dependency>
 
-		<!--不加报错,网上求助是由于默认3.18.1-GA存在问题-->
+		<!--不加报错,网上求助是由于默认3.18.1-GA存在问题 -->
 		<dependency>
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>

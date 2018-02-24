@@ -16,7 +16,7 @@
     <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}"/>
 
     <!-- 暴露服务 -->
-    <dubbo:protocol name="${dubbo.protocol.name}" port="${dubbo.protocol.port}" host="${dubbo.protocol.host}"/>
+    <dubbo:protocol name="${dubbo.protocol.name}" port="${dubbo.protocol.port}"/>
 
     <dubbo:service interface="my.spring.boot.stu.service.IDemoService"
                    ref="demoServiceImpl" retries="0" timeout="6000"/>

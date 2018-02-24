@@ -3,9 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>my.boot.stu</groupId>
     <artifactId>boot-dubbo-provider-war</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <name>boot-dubbo-provider-war</name>
@@ -17,8 +15,8 @@
     </parent>
 
     <properties>
-        <com.alibaba.dubbo.version>2.5.3</com.alibaba.dubbo.version>
-        <org.apache.zookeeper.version>3.4.6</org.apache.zookeeper.version>
+        <com.alibaba.dubbo.version>2.6.0</com.alibaba.dubbo.version>
+        <org.apache.zookeeper.version>3.4.9</org.apache.zookeeper.version>
         <com.github.sgroschupf.zkclient.version>0.1</com.github.sgroschupf.zkclient.version>
     </properties>
 
